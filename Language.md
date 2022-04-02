@@ -78,15 +78,9 @@ Dx : Tx(D, ...)         // Expresion
 | Structure definition | ```struct <ID> ( <ID> : <TYPE>, ... );```
 | Function definition | ```funct <ID> ( <ID> : <TYPE>, ... ) : <TYPE> { ... };```
 | Data definition | ```data <ID> : <TYPE> = <EXP>;```
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Structure expresion | ```<ID>(<EXP>, ...)```
 | Function expresion | ```<ID>(<EXP>, ...)```
 | Data expresion | ```<ID> : <TYPE>(<EXP>, ...)```
-=======
->>>>>>> ebb9246 (Corrections)
-=======
->>>>>>> 958816bb3b7e1c087402d4150c95b66b102d2bfb
 
 ### Example code
 
