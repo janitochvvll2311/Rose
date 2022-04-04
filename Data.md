@@ -19,7 +19,7 @@
 * ```data ID : TYPE = EXP ;``` With explicit type expression
 * ```data ID = EXP ;``` With inferred type expression
 
-## Specials 1
+## Multiple data
 
 * ```data ( ID : TYPE = EXP , ... ) ;``` Multiple data in-place assignment
 * ```data ( ID = EXP , ... ) ;``` Multiple data in-place assignment (inferred types)
@@ -28,7 +28,7 @@
 * ```data ( ID : TYPE , ... ) = EXP ;``` Data deconstructor
 * ```data ( ID , ... ) = EXP ;``` Data deconstructor (inferred types)
 
-## Specials 2
+## Tuples
 
 * ```data ID ( EXP , ... ) ;``` Unnamed member in-place constructor
 * ```data ID ( TYPE , ... ) = ( EXP , ... ) ;``` Unnamed member out-place constructor
@@ -37,4 +37,5 @@
 ## Usage
 
 * ```ID . ID``` Named member access
-* ```ID . INDEX``` Unnamed member access
+* ```ID . INDEX``` Unnamed member access (for tuples)
+* ```ID . { ... }``` Access code (Where ID is a struct ID)

@@ -4,11 +4,12 @@
 
 ## Declaration
 
-* ```funct ID ( ID : TYPE ) : TYPE ;``` Unimplements code
+* ```funct ID ( ID : TYPE ) : TYPE ;``` Unimplemented function
 
 ## Definition
 
-* ```funct ID ( ID : TYPE ) : TYPE { ... };``` Implements code
+* ```funct ID ( ID : TYPE ) : TYPE { ... };``` Implemented function
+* ```funct ID ( ID ) { ... };``` Implemented function (inferred types)
 
 ## Usage
 
